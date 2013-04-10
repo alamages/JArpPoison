@@ -19,7 +19,7 @@ first make a fifo file:
 
 then start your JMITM and tell it to redirect its output to the fifo file:
 
-		sudo java JMITM --output /tmp/myfifo
+	sudo java JMITM --output /tmp/myfifo
 
 finally start wireshark and tell to read from the fifo file:
 
@@ -34,8 +34,8 @@ More information about jpcap: http://www.eden.rutgers.edu/~muscarim/jpcap/index.
 
 ##Screenshots
 
-![Screenshot1](https://github.com/alamages/JArpPoison/blob/master/JNetJammer.png)
-![Screenshot2](https://github.com/alamages/JArpPoison/blob/master/JMITM.png)
+![Screenshot1](https://github.com/alamages/JArpPoison/master/JNetJammer.png)
+![Screenshot2](https://github.com/alamages/JArpPoison/master/JMITM.png)
 
 #TODO
 
